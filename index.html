@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Irwan's Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <i class="fas fa-smile"></i>
+    </div>
+    <nav class="nav">
+      <a href="#section1"><button>Home</button></a>
+      <a href="#section2"><button>Our Profile</button></a>
+      <a href="#section3"><button>Message Us</button></a>
+    </nav>
+  </header>
+
+  <section class="welcome-section">
+    <h1>Hi <span id="nama">Iwang</span>, Welcome to My Website!</h1>
+    <p id="section1" class="active">This is my first website practice.</p>
+    <div class="background">
+      <img src="/19-09-2008/accessories/zoo.jpg" alt="Background Image">
+    </div>
+  </section>
+
+  <section class="headquarter-section"  id="section2" class="hidden">
+    <h2>Our Headquarters</h2>
+    <div class="cities">
+    
+      <div class="city">
+        <div class="circle"></div>
+        <p class="utas">SD</p>
+        <p>SDN Bantarjati 9</p>
+      </div>
+      <div class="city">
+        <div class="circle"></div>
+        <p class="aud">SMP</p>
+        <p>MTsN Kota Bogor</p>
+      </div>
+      <div class="city">
+        <div class="circle"></div>
+        <p class="agit">SMK</p>
+        <p>SMKN 3 kota Bogor</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="message-section"></section>
+    <h2>Message Us</h2> <div class="form">
+      <label for="name">Nama</label>
+      <input type="text" id="name" name="name">
+      <label for="date">Tanggal Lahir</label>
+      <input type="date" id="date" name="date">
+      <label for="gender">Jenis Kelamin</label>
+      <div
+ class="gender">
+        <input type="radio" id="male" name="gender" value="Laki-Laki">
+        <label for="male">Laki-Laki</label>
+        <input type="radio" id="female"name="gender" value="Perempuan">
+        <label for="female">Perempuan</label>
+
+      </div>
+      <label for="message">Pesan</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+      <button>submit</button>
+    </div>
+    <div class="info">
+      </div>
+  </section>
+
+  <div class="footer">
+    <p>Created by: Irwansyah</p>
+  </div>
+</body>
+</html>
